@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    background: #eee;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background: white;
+}
+figcaption {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+}
+
